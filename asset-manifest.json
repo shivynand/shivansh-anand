@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/shivansh-anand/static/css/main.949ffc9f.css",
+    "main.js": "/shivansh-anand/static/js/main.0779c0ea.js",
+    "static/media/HTML CSS Logo.png": "/shivansh-anand/static/media/HTML CSS Logo.fe185d7f4bc08e5e3e69.png",
+    "static/media/Market Analysis Icon.svg": "/shivansh-anand/static/media/Market Analysis Icon.92cc7666b2f9bdfdef97caad4a847a75.svg",
+    "static/media/React SVG from SVG Repo.svg": "/shivansh-anand/static/media/React SVG from SVG Repo.598d90dd4f36234e376cbc6ccd571550.svg",
+    "static/media/Video Editing.svg": "/shivansh-anand/static/media/Video Editing.73f62f01a2eb46cc6fa4d5bd4f26c592.svg",
+    "static/media/Resume icon.svg": "/shivansh-anand/static/media/Resume icon.1c72a337576381d210df3bb426cf309b.svg",
+    "static/media/Github SVGRepo icon.svg": "/shivansh-anand/static/media/Github SVGRepo icon.3aacd1cb3a8f1bc40ba8b5e8c94441fe.svg",
+    "static/media/Presentation Chart Graph.svg": "/shivansh-anand/static/media/Presentation Chart Graph.d1346e72b269ada9e89e01053c83fde1.svg",
+    "static/media/Nestjs icon.svg": "/shivansh-anand/static/media/Nestjs icon.36f3b61669bcc49db76468c66b2f4d23.svg",
+    "static/media/Git icon.svg": "/shivansh-anand/static/media/Git icon.8ee81345da1c18b6cdb4bbe93b464810.svg",
+    "static/media/Github icon.svg": "/shivansh-anand/static/media/Github icon.b40b1c0378274f892133dea1253e8aa8.svg",
+    "index.html": "/shivansh-anand/index.html",
+    "static/media/Website.svg": "/shivansh-anand/static/media/Website.c6ce0256e4043de47b08172548ca9800.svg",
+    "static/media/LinkedIn App icon.svg": "/shivansh-anand/static/media/LinkedIn App icon.2298f9259beb960fb95720c8da3eef6a.svg",
+    "static/media/Javascript SVGRepo.svg": "/shivansh-anand/static/media/Javascript SVGRepo.7bb08cdbe94fc2dfc1b51be8c2dae551.svg",
+    "static/media/Presentation.svg": "/shivansh-anand/static/media/Presentation.d453a504b2b9d48543496be1b2a832e0.svg",
+    "static/media/entrepreneur.svg": "/shivansh-anand/static/media/entrepreneur.921105bf812f4abbde884d47c44d4b79.svg",
+    "static/media/Tailwind icon.svg": "/shivansh-anand/static/media/Tailwind icon.973c73e85d4daa24b257ba20298716c4.svg",
+    "static/media/Linkedin.svg": "/shivansh-anand/static/media/Linkedin.0657a0b5ce4be442b0610e317a21010e.svg",
+    "static/media/Phone.svg": "/shivansh-anand/static/media/Phone.ab75e901b9142e0ac33934f4daa9ca83.svg",
+    "static/media/Software dev.svg": "/shivansh-anand/static/media/Software dev.c284b5232aac35ab430bf62dca01a157.svg",
+    "static/media/Email.svg": "/shivansh-anand/static/media/Email.89a3cae53c54239e94c80fd923bd1d54.svg",
+    "main.949ffc9f.css.map": "/shivansh-anand/static/css/main.949ffc9f.css.map",
+    "main.0779c0ea.js.map": "/shivansh-anand/static/js/main.0779c0ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.949ffc9f.css",
+    "static/js/main.0779c0ea.js"
+  ]
+}
