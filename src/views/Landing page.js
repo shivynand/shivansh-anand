@@ -9,6 +9,7 @@ import Entreprenuer from "./entrepreneur.svg";
 import Website from "./Website.svg";
 import Linkedin from "./LinkedIn App icon.svg";
 import Github from "./Github icon.svg";
+import Resume from "./Resume icon.svg"
 import Presentation from "./Presentation.svg";
 
 export default function Landing() {
@@ -97,6 +98,17 @@ export default function Landing() {
                         src={Github}
                         className="w-[64px] h-[64px] ml-[50px]"
                         alt="Github"
+                      />
+                    </a>
+                    <a
+                      href="https://www.canva.com/design/DAFnW0__Hps/85p49fWuguuACSsYyICi0A/view?utm_content=DAFnW0__Hps&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src={Resume}
+                        className="w-[64px] h-[64px] ml-[50px]"
+                        alt="Resume"
                       />
                     </a>
                   </div>

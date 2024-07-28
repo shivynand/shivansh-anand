@@ -1,21 +1,8 @@
 import React from "react";
-import smoothScroll  from '../utils/Scroll';
+import smoothScroll from "../utils/Scroll";
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
-
-  const handleClick = (e) => {
-    try {
-      window.open(
-        "https://www.canva.com/design/DAFnW0__Hps/85p49fWuguuACSsYyICi0A/view?utm_content=DAFnW0__Hps&utm_campaign=designshare&utm_medium=link&utm_source=editor",
-        "_blank",
-        "noopener, noreferrer"
-      );
-    } catch (error) {
-      console.error("Error opening new window", error);
-    }
-  };
-
 
   return (
     <nav
@@ -23,7 +10,7 @@ export default function Navbar(props) {
         (props.transparent
           ? "top-0 absolute z-50 w-full"
           : "relative bg-white shadow-lg") +
-        " flex flex-wrap items-center justify-between px-2 py-3 "
+        " flex flex-wrap items-center justify-center px-2 py-3"
       }
     >
       <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
@@ -52,12 +39,12 @@ export default function Navbar(props) {
         </div>
         <div
           className={
-            "lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none" +
-            (navbarOpen ? " block rounded shadow-lg" : " hidden")
+            "lg:flex flex-grow items-center justify-center" +
+            (navbarOpen ? " flex" : " hidden")
           }
           id="example-navbar-warning"
         >
-          <ul className="flex flex-col lg:flex-row list-none mr-auto">
+          <ul className="flex flex-col lg:flex-row list-none lg:mr-auto">
             <li className="flex items-center">
               <a
                 className={
@@ -80,8 +67,6 @@ export default function Navbar(props) {
                 Projects
               </a>
             </li>
-          </ul>
-          <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li className="flex items-center">
               <a
                 className={
@@ -90,78 +75,19 @@ export default function Navbar(props) {
                     : "text-gray-800 hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
-                href="#pablo"
+                href="#skills"
+                onClick={smoothScroll}
               >
                 <i
                   className={
                     (props.transparent
                       ? "lg:text-gray-300 text-gray-500"
                       : "text-gray-500") +
-                    " fab fa-facebook text-lg leading-lg "
+                    " far fa-file-alt text-lg leading-lg mr-2"
                   }
-                />
-                <span className="lg:hidden inline-block ml-2">Share</span>
+                />{" "}
+                Skills
               </a>
-            </li>
-
-            <li className="flex items-center">
-              <a
-                className={
-                  (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                    : "text-gray-800 hover:text-gray-600") +
-                  " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                }
-                href="#pablo"
-              >
-                <i
-                  className={
-                    (props.transparent
-                      ? "lg:text-gray-300 text-gray-500"
-                      : "text-gray-500") +
-                    " fab fa-twitter text-lg leading-lg "
-                  }
-                />
-                <span className="lg:hidden inline-block ml-2">Tweet</span>
-              </a>
-            </li>
-
-            <li className="flex items-center">
-              <a
-                className={
-                  (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                    : "text-gray-800 hover:text-gray-600") +
-                  " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                }
-                href="#pablo"
-              >
-                <i
-                  className={
-                    (props.transparent
-                      ? "lg:text-gray-300 text-gray-500"
-                      : "text-gray-500") +
-                    " fab fa-github text-lg leading-lg "
-                  }
-                />
-                <span className="lg:hidden inline-block ml-2">Star</span>
-              </a>
-            </li>
-
-            <li className="flex items-center">
-              <button
-                className={
-                  (props.transparent
-                    ? "bg-white text-gray-800 active:bg-gray-100"
-                    : "bg-pink-500 text-white active:bg-pink-600") +
-                  " text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
-                }
-                type="button"
-                style={{ transition: "all .15s ease" }}
-                onClick={handleClick}
-              >
-                <i className="fas fa-arrow-alt-circle-down"></i> My resume
-              </button>
             </li>
           </ul>
         </div>
