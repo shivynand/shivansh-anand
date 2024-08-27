@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shivansh-anand/static/css/main.949ffc9f.css",
-    "main.js": "/shivansh-anand/static/js/main.b3e28708.js",
+    "main.js": "/shivansh-anand/static/js/main.cd94371b.js",
     "static/media/HTML CSS Logo.png": "/shivansh-anand/static/media/HTML CSS Logo.fe185d7f4bc08e5e3e69.png",
     "static/media/Market Analysis Icon.svg": "/shivansh-anand/static/media/Market Analysis Icon.92cc7666b2f9bdfdef97caad4a847a75.svg",
     "static/media/React SVG from SVG Repo.svg": "/shivansh-anand/static/media/React SVG from SVG Repo.598d90dd4f36234e376cbc6ccd571550.svg",
@@ -24,10 +24,10 @@
     "static/media/Software dev.svg": "/shivansh-anand/static/media/Software dev.c284b5232aac35ab430bf62dca01a157.svg",
     "static/media/Email.svg": "/shivansh-anand/static/media/Email.89a3cae53c54239e94c80fd923bd1d54.svg",
     "main.949ffc9f.css.map": "/shivansh-anand/static/css/main.949ffc9f.css.map",
-    "main.b3e28708.js.map": "/shivansh-anand/static/js/main.b3e28708.js.map"
+    "main.cd94371b.js.map": "/shivansh-anand/static/js/main.cd94371b.js.map"
   },
   "entrypoints": [
     "static/css/main.949ffc9f.css",
-    "static/js/main.b3e28708.js"
+    "static/js/main.cd94371b.js"
   ]
 }
