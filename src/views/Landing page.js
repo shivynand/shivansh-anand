@@ -9,7 +9,7 @@ import Entreprenuer from "./entrepreneur.svg";
 import Website from "./Website.svg";
 import Linkedin from "./LinkedIn App icon.svg";
 import Github from "./Github icon.svg";
-import Resume from "./Resume icon.svg"
+import Resume from "./Resume icon.svg";
 import Presentation from "./Presentation.svg";
 
 export default function Landing() {
@@ -252,6 +252,10 @@ export default function Landing() {
                     Website
                   </div>
                 </button>
+              </div>
+              <div className="flex flex-col justify-center text-center text-white">
+                <div><strong className="text-lg">Test Email:</strong> dda1000220@cuhk.edu.hk</div>
+                <div><strong className="text-lg">Test Password:</strong> qqsoftcandy2#</div>
               </div>
             </div>
           </div>
